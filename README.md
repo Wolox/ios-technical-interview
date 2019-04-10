@@ -204,7 +204,7 @@ and it was written by [Wolox](http://www.wolox.com.ar).
 
 ## <a name="topic-license"></a> License
 
-**WOLMO CORE** is available under the MIT [license](https://raw.githubusercontent.com/Wolox/wolmo-core-android/master/LICENSE.md).
+**iOS Technical Interview** is available under the MIT [license](https://raw.githubusercontent.com/Wolox/wolmo-core-android/master/LICENSE.md).
 
     Copyright (c) Wolox S.A
 
