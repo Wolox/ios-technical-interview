@@ -14,6 +14,10 @@
 		0C210B9B225E1B2A0057D0AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C210B99225E1B2A0057D0AF /* LaunchScreen.storyboard */; };
 		0C210BA6225E1B2A0057D0AF /* InterviewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C210BA5225E1B2A0057D0AF /* InterviewAppTests.swift */; };
 		0C210BB1225E1B2A0057D0AF /* InterviewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C210BB0225E1B2A0057D0AF /* InterviewAppUITests.swift */; };
+		0C210BC3225E3DA80057D0AF /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C210BC2225E3DA80057D0AF /* Images.swift */; };
+		0C210BC5225E59D60057D0AF /* ImageDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C210BC4225E59D60057D0AF /* ImageDetails.swift */; };
+		0C210BC7225E59F80057D0AF /* GiphyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C210BC6225E59F80057D0AF /* GiphyResponse.swift */; };
+		0C210BC9225E5A160057D0AF /* Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C210BC8225E5A160057D0AF /* Gif.swift */; };
 		4C49A556E7D387979A9DAB45 /* Pods_InterviewApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2E49E8C50F105740BA8C3E /* Pods_InterviewApp.framework */; };
 		771122A60387F4F9739E5A28 /* Pods_InterviewAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725CD9C5724C4AF7AF296EA6 /* Pods_InterviewAppUITests.framework */; };
 		F642C0008E8B3213671A1B85 /* Pods_InterviewAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48686B89547EE2C48AD1828C /* Pods_InterviewAppTests.framework */; };
@@ -50,6 +54,10 @@
 		0C210BAC225E1B2A0057D0AF /* InterviewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterviewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C210BB0225E1B2A0057D0AF /* InterviewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewAppUITests.swift; sourceTree = "<group>"; };
 		0C210BB2225E1B2A0057D0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C210BC2225E3DA80057D0AF /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		0C210BC4225E59D60057D0AF /* ImageDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetails.swift; sourceTree = "<group>"; };
+		0C210BC6225E59F80057D0AF /* GiphyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyResponse.swift; sourceTree = "<group>"; };
+		0C210BC8225E5A160057D0AF /* Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gif.swift; sourceTree = "<group>"; };
 		166CD082D0B6578820C2A443 /* Pods-InterviewApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InterviewApp/Pods-InterviewApp.debug.xcconfig"; sourceTree = "<group>"; };
 		21352EFB60CD562139181D21 /* Pods-InterviewAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InterviewAppUITests/Pods-InterviewAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3BCE1522468B9AC515998533 /* Pods-InterviewAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InterviewAppTests/Pods-InterviewAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +122,7 @@
 		0C210B8F225E1B280057D0AF /* InterviewApp */ = {
 			isa = PBXGroup;
 			children = (
+				0C210BC1225E3D460057D0AF /* Models */,
 				0C210B90225E1B280057D0AF /* AppDelegate.swift */,
 				0C210B92225E1B280057D0AF /* ViewController.swift */,
 				0C210B94225E1B280057D0AF /* Main.storyboard */,
@@ -140,6 +149,17 @@
 				0C210BB2225E1B2A0057D0AF /* Info.plist */,
 			);
 			path = InterviewAppUITests;
+			sourceTree = "<group>";
+		};
+		0C210BC1225E3D460057D0AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0C210BC2225E3DA80057D0AF /* Images.swift */,
+				0C210BC4225E59D60057D0AF /* ImageDetails.swift */,
+				0C210BC6225E59F80057D0AF /* GiphyResponse.swift */,
+				0C210BC8225E5A160057D0AF /* Gif.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		39DE4639E3CE0CF6F5A42C88 /* Frameworks */ = {
@@ -392,6 +412,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C210B93225E1B280057D0AF /* ViewController.swift in Sources */,
+				0C210BC3225E3DA80057D0AF /* Images.swift in Sources */,
+				0C210BC9225E5A160057D0AF /* Gif.swift in Sources */,
+				0C210BC7225E59F80057D0AF /* GiphyResponse.swift in Sources */,
+				0C210BC5225E59D60057D0AF /* ImageDetails.swift in Sources */,
 				0C210B91225E1B280057D0AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
