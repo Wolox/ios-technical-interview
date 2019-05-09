@@ -12,6 +12,8 @@ The following technical challenges should be addressed during the interview:
 
 ##### Working Example
 
+![Screenshot](Resources/interview\ example.gif)
+
 ### API Integration.
 
 The full documentation on how to use Giphy's API is here: https://developers.giphy.com/docs/
