@@ -6,7 +6,7 @@ target 'InterviewApp' do
   use_frameworks!
 
   # Pods for InterviewApp
-	pod 'AFNetworking', '~> 3.0'
+	pod 'Alamofire'
 
   target 'InterviewAppTests' do
     inherit! :search_paths
