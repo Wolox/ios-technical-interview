@@ -31,7 +31,12 @@ The endpoint looks like this:
 - `{API KEY}`: A Giphy provided API token to authenticate the request
 
 We already have an `API KEY` in place for this excersise that you can use for the challenge.
+
 **API KEY:** `ek7rK0Eh2sbmBGwOFVsFBe93Stt4xQTB`
+
+For this exercise we are just going to search for the term swift, you don't need to implement a search bar.
+
+**SEARCH TERM:** `swift`
 
 ##### Response
 
