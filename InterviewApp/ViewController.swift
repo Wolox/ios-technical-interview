@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Alamofire
+import AFNetworking
 
 class ViewController: UIViewController {
     
