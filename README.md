@@ -12,7 +12,7 @@ The following technical challenges should be addressed during the interview:
 
 ##### Working Example
 
-![Screenshot](Resources/interview\ example.gif)
+![](example.gif)
 
 ### API Integration.
 
